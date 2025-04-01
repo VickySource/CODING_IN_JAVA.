@@ -6,14 +6,15 @@ public class SimpleReccursion
      */
     static int Function1(int count)
 
-        //This is the condition to stop the recursion\
-        //The best practice  would be before the funtion we need to  nitialization of the variable as well as braek condition...
+     
     
     {
         //Dont call funtion a the top becuse if we call the f() there will get stack over flow
         //to avoid this we need to use stop infinate loop use conditon whrere to stop
-
         //Function1(count);
+        
+        //This is the condition to stop the recursion\
+        //The best practice  would be before the funtion we need to  nitialization of the variable as well as braek condition...
         if (count >=2)
         {
         return count;   
@@ -21,10 +22,6 @@ public class SimpleReccursion
 
         count ++;
         System.out.println(count);
-    
-
-        //This is the condition to stop the recursion\
-        //The best practice  would be before the funtion we need to  nitialization of the variable as well as braek condition...
         
 
         
@@ -44,7 +41,7 @@ public class SimpleReccursion
 
     public static void main(String []args)
     {
-        Function1(0);
+        Function1(0);//invoking the funtion at the main method
     }
 
 }
