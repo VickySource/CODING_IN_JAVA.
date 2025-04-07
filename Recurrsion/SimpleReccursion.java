@@ -9,12 +9,12 @@ public class SimpleReccursion
      
     
     {
-        //Dont call funtion a the top becuse if we call the f() there will get stack over flow
+        //Dont call funtion at the top becuse if we call the f() there will get stack over flow
         //to avoid this we need to use stop infinate loop use conditon whrere to stop
         //Function1(count);
         
         //This is the condition to stop the recursion\
-        //The best practice  would be before the funtion we need to  nitialization of the variable as well as braek condition...
+        //The best practice  would be before the funtion we need to  intialization of the variable as well as braek condition...
         if (count >=2)
         {
         return count;   
