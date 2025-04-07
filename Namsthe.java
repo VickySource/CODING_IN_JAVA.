@@ -8,7 +8,7 @@ public class Namsthe
       //System.out.println(answer);
       Nothing();
       PrintMessage(0, null); 
-      int Message =  PrintMessage(13, "vicky");
+      int Message =  PrintMessage(10, "NAMSTHE MANDYA ! ");
         System.out.println(Message);
     }
 
